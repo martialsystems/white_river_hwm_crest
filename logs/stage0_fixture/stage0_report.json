@@ -1,0 +1,21 @@
+{
+  "stage": "0",
+  "fixture": true,
+  "question": "Do August 2026 high-water marks land on the Nora HAND wet mask at 21.18 ft?",
+  "gage_id": "03351000",
+  "crest_stage_ft": 21.18,
+  "crest_date": "2026-08-15",
+  "tests_fema": false,
+  "tests_sir_2011": false,
+  "table": {
+    "n": 4,
+    "n_hit": 2,
+    "n_miss": 1,
+    "n_out": 1,
+    "hit_rate_in_window": 0.6666666666666666
+  },
+  "figures": [
+    "hwm_on_crest.png",
+    "hwm_counts.png"
+  ]
+}
