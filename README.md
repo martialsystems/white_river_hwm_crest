@@ -37,4 +37,4 @@ Live `run_live.py` exits 2 when the official layer is empty or 404. That is the 
 
 Related: https://github.com/martialsystems/white_river_stage_inundation
 
-Lanes (maps / White River Q / precip): https://github.com/martialsystems
+Research index: https://github.com/martialsystems/.github/blob/main/RESEARCH.md
