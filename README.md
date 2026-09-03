@@ -8,7 +8,7 @@ Live fetch of the official layer is a stop: USGS STN FilteredHWMs for Indiana an
 
 Sibling Nora v1 `three_wet.png` stays frozen. Two figures max, then this tree stops.
 
-| Official probe (2026-08-28) | Result |
+| Official probe (2026-09-02) | Result |
 |---|---|
 | USGS STN `States=IN` | HTTP 200, empty list |
 | USGS STN `States=IN&Counties=Marion` | HTTP 200, empty list |
