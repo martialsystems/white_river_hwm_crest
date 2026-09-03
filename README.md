@@ -2,7 +2,7 @@
 
 Do August 2026 high-water marks land on the Nora HAND wet mask at 21.18 ft?
 
-This tree scores official IDNR / USGS / city high-water marks (points with locations) on the frozen Nora crest wet mask from https://github.com/martialsystems/white_river_stage_inundation (`wet_crest_2026-08-15.tif`, 1876 wet cells, Δ = 4.19 m). A point is a hit if it falls on a wet cell, a miss if it falls on a dry cell in the drain-to-reach window, and out if it is outside that window. The test is water at 21.18 ft, not FEMA and not SIR 2011.
+This tree scores official IDNR / USGS / city high-water marks (points with locations) on the frozen Nora crest wet mask from [![white_river_stage_inundation](https://img.shields.io/badge/white__river__stage__inundation-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_stage_inundation) (`wet_crest_2026-08-15.tif`, 1876 wet cells, Δ = 4.19 m). A point is a hit if it falls on a wet cell, a miss if it falls on a dry cell in the drain-to-reach window, and out if it is outside that window. The test is water at 21.18 ft, not FEMA and not SIR 2011.
 
 Live fetch of the official layer is a stop: USGS STN FilteredHWMs for Indiana and Marion County return `[]`; ScienceBase has zero 2026 Indiana HWM items. Stage 0 fixture stays green. Live paint does not invent marks.
 
@@ -35,6 +35,6 @@ PYTHONPATH=src:. python3 scripts/run_live.py logs/nora_live
 
 Live `run_live.py` exits 2 when the official layer is empty or 404. That is the gate, not a crash.
 
-Related: https://github.com/martialsystems/white_river_stage_inundation
+Related: [![white_river_stage_inundation](https://img.shields.io/badge/white__river__stage__inundation-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_stage_inundation)
 
-Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3
+[![Open the research console](https://img.shields.io/badge/Open_the_research_console-2e7d32?style=for-the-badge)](https://martialsystems.github.io/indiana_wx_pages/)
