@@ -35,4 +35,6 @@ PYTHONPATH=src:. python3 scripts/run_live.py logs/nora_live
 
 Live `run_live.py` exits 2 when the official layer is empty or 404. That is the gate, not a crash.
 
-[![Nora wet cells at two stages](https://img.shields.io/badge/Nora_wet_cells_at_two_stages-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_stage_inundation) [![Open the research console](https://img.shields.io/badge/Open_the_research_console-2e7d32?style=for-the-badge)](https://martialsystems.github.io/indiana_wx_pages/)
+[Nora wet cells at two stages](https://github.com/martialsystems/white_river_stage_inundation)
+
+Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3
