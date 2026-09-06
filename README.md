@@ -2,11 +2,13 @@
 
 Do August 2026 high-water marks land on the Nora HAND wet mask at 21.18 ft?
 
-This tree scores official IDNR / USGS / city high-water marks (points with locations) on the frozen Nora crest wet mask from [Nora wet cells at two stages](https://github.com/martialsystems/white_river_stage_inundation) (`wet_crest_2026-08-15.tif`, 1876 wet cells, Δ = 4.19 m). A point is a hit if it falls on a wet cell, a miss if it falls on a dry cell in the drain-to-reach window, and out if it is outside that window. The test is water at 21.18 ft, not FEMA and not SIR 2011.
+Official points are not scored yet. Probe 2026-09-05 (`99c76a2`): USGS STN Indiana and Marion County returned `[]`; ScienceBase total 0. Empty APIs are a wait. The fixture is not the result.
 
-Live fetch of the official layer is a stop: USGS STN FilteredHWMs for Indiana and Marion County return `[]`; ScienceBase has zero 2026 Indiana HWM items. Stage 0 fixture stays green. Live paint does not invent marks.
+When USGS STN or ScienceBase publishes points with locations, this tree scores them on the frozen Nora crest wet mask from [Nora wet cells at two stages](https://github.com/martialsystems/white_river_stage_inundation) (`wet_crest_2026-08-15.tif`, 1,876 wet cells, Δ = 4.19 m). Hit: wet cell. Miss: dry in the drain-to-reach window. Out: outside that window. Two figures. Then stop. If they never publish, the parked row is the terminal state.
 
-Sibling Nora v1 `three_wet.png` stays frozen. Two figures max, then this tree stops.
+The schedule in [CADENCE.md](CADENCE.md) exists only so that question can close when the official layer appears. Do not grow a fifth figure, a new model, or a lab around the wait.
+
+Sibling Nora v1 `three_wet.png` stays frozen.
 
 | Official probe (2026-09-05) | Result |
 |---|---|
@@ -14,13 +16,13 @@ Sibling Nora v1 `three_wet.png` stays frozen. Two figures max, then this tree st
 | USGS STN `States=IN&Counties=Marion` | HTTP 200, empty list |
 | ScienceBase "high-water mark Indiana 2026" | total 0 |
 
-![Figure 1. Fixture: HWM points on a tiny crest mask](logs/stage0_fixture/hwm_on_crest.png)
+![Figure 1. Fixture path: four synthetic points on a tiny crest mask](logs/stage0_fixture/hwm_on_crest.png)
 
-Figure 1. Fixture only (four points: two hit, one miss, one out). Live official points are not published yet.
+Figure 1. Fixture path only (four synthetic points: two hit, one miss, one out). Not the August 2026 result.
 
-![Figure 2. Fixture counts](logs/stage0_fixture/hwm_counts.png)
+![Figure 2. Fixture path counts](logs/stage0_fixture/hwm_counts.png)
 
-Figure 2. Fixture hit / miss / out. Second and last figure for this tree until an official layer exists.
+Figure 2. Fixture hit / miss / out. Second figure for the fixture path. Live paint waits on an official layer.
 
 ## Stage 0
 
@@ -33,7 +35,7 @@ PYTHONPATH=src:. python3 scripts/run_fixture.py logs/stage0_fixture
 PYTHONPATH=src:. python3 scripts/run_live.py logs/nora_live
 ```
 
-Live `run_live.py` exits 2 when the official layer is empty or 404. That is the gate, not a crash.
+Live `run_live.py` exits 2 when the official layer is empty or 404. That is not scored yet, not a crash.
 
 [Nora wet cells at two stages](https://github.com/martialsystems/white_river_stage_inundation)
 

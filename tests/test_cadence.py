@@ -83,6 +83,10 @@ def test_cadence_doc_locks_the_calendar_and_the_run() -> None:
     assert "logs/stage0_fixture" in text
     assert "README probe date only" in text
     assert "No scoring on empty" in text
+    assert "not scored yet" in text
+    assert "The fixture is not the result" in text
+    assert "terminal state" in text
+    assert "fifth figure" in text
     assert "99c76a2" in text
     assert "Flood Event Viewer" in text
     assert "ScienceBase search total leaves 0" in text

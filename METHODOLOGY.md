@@ -8,7 +8,7 @@ Nora crest wet mask, USGS 03351000, 2026-08-15, 21.18 ft, Δ = 4.19 m. Pin band 
 
 ## Official points
 
-USGS STN FilteredHWMs and ScienceBase. IDNR or city GIS with locations would count if they appear at those URLs or a documented successor. Empty list or HTTP 404 stops live paint. Do not substitute news photos, SIR 2011 polygons, or FEMA SFHA. Probe on CADENCE.md, not daily.
+USGS STN FilteredHWMs and ScienceBase. IDNR or city GIS with locations would count if they appear at those URLs or a documented successor. Empty list or HTTP 404 is not scored yet. The fixture is not the result. Do not substitute news photos, SIR 2011 polygons, or FEMA SFHA. Probe on CADENCE.md, not daily. If they never publish, the parked row is the terminal state.
 
 Hit: HWM cell is wet. Miss: dry in the Nora window. Out: outside the window.
 

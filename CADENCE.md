@@ -1,6 +1,8 @@
 # Probe cadence: official HWM layer
 
-Last empty probe: 2026-09-05 (`99c76a2`). USGS STN Indiana/Marion returned `[]` (2-byte body). ScienceBase total 0. Live `run_live.py` exited 2.
+Last empty probe: 2026-09-05 (`99c76a2`). USGS STN Indiana/Marion returned `[]` (2-byte body). ScienceBase total 0. Live `run_live.py` exited 2. Empty APIs are not scored yet. The fixture is not the result.
+
+The schedule exists only so the HWM question can close when USGS or ScienceBase publishes points. If they never do, the parked row is the terminal state. Do not grow a fifth figure, a new model, or a lab around the wait.
 
 Field marks get flagged fast because they perish. Public STN / ScienceBase points come later, after survey and an event record. For a mid-August crest that is still normal at three weeks. The 2008 White River marks showed up in a later report, not in the first fortnight.
 
@@ -41,4 +43,4 @@ Do not restamp maps/index unless the SHA of that date-only commit is the parked 
 
 If the official layer has points: score them on the frozen Nora crest wet mask. That is fetch-or-stop, not a new model and not a new question.
 
-After 7 Feb 2027, if the layer is still empty, stop the clock. Park until a named USGS / IDNR / ScienceBase publication. Do not start another timer.
+After 7 Feb 2027, if the layer is still empty, stop the clock. The parked row is then the terminal state until a named USGS / IDNR / ScienceBase publication. Do not start another timer. Do not grow a fifth figure, a new model, or a lab around the wait.

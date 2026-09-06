@@ -16,6 +16,10 @@ def test_readme_opens_with_the_question() -> None:
     assert body.startswith(QUESTION)
     assert "21.18" in text
     assert "white_river_stage_inundation" in text
+    assert "not scored yet" in text
+    assert "The fixture is not the result" in text
+    assert "1,876" in text
+    assert "gist.github.com/martialsystems/66b896b0" in text
     assert scan_text(text) == []
     assert "—" not in text
     assert "What it is not" not in text

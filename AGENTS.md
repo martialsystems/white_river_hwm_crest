@@ -4,7 +4,7 @@ Public GitHub. MIT. Question: Do August 2026 high-water marks land on the Nora H
 
 Sibling https://github.com/martialsystems/white_river_stage_inundation is frozen. Do not edit it. Do not rewrite `three_wet.png`. Do not test FEMA. Do not test SIR 2011. Two figures max, then stop.
 
-Live fetch of USGS STN / ScienceBase that returns empty or 404 is a stop. Do not invent HWM points.
+Live fetch of USGS STN / ScienceBase that returns empty or 404 is not scored yet. Do not invent HWM points. The fixture is not the result. Two figures when official points exist, then stop. If they never publish, the parked row is the terminal state. Do not grow a fifth figure, a new model, or a lab around the wait.
 
 Probe on [CADENCE.md](CADENCE.md), not daily. Last empty probe is 2026-09-05. Next calendar run is 2026-09-17. Empty `[]` on a silence day does not move the tree.
 
