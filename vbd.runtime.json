@@ -4,13 +4,13 @@
       "id": "unit-tests",
       "argv": [".venv/bin/python", "-m", "pytest", "tests/", "-q"],
       "timeout_s": 120,
-      "paths": ["src/**", "tests/**", "scripts/**", "hwmforge/**", "requirements.txt", "vbd.runtime.json"]
+      "paths": ["src/**", "tests/**", "scripts/**", "hwmforge/**", "CADENCE.md", "AGENTS.md", "CHECKLIST.md", "METHODOLOGY.md", "README.md", "requirements.txt", "vbd.runtime.json"]
     },
     {
       "id": "fixture-path",
       "argv": [".venv/bin/python", "scripts/run_fixture.py", "logs/stage0_fixture"],
       "timeout_s": 60,
-      "paths": ["src/**", "scripts/**", "tests/**"]
+      "paths": ["src/**", "scripts/**"]
     },
     {
       "id": "hwmforge-sanity",

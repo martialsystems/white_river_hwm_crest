@@ -6,4 +6,6 @@ Sibling https://github.com/martialsystems/white_river_stage_inundation is frozen
 
 Live fetch of USGS STN / ScienceBase that returns empty or 404 is a stop. Do not invent HWM points.
 
+Probe on [CADENCE.md](CADENCE.md), not daily. Last empty probe is 2026-09-05. Next calendar run is 2026-09-17. Empty `[]` on a silence day does not move the tree.
+
 `hwmforge/` is the GraphForge pin: sibling sha, fetch-or-stop, figure cap, claim bans.
