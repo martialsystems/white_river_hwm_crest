@@ -8,8 +8,8 @@ REPO = Path(__file__).resolve().parents[1]
 FIXTURE = REPO / "logs" / "stage0_fixture"
 
 LOCKED_SHA256 = {
-    "hwm_on_crest.png": "bb06c6ad7d54f23147bb108be4d307622ef63a869de760a54f13eef0a1bab2b5",
-    "hwm_counts.png": "323248260dbe5c9d32d822688b72d568f87843eb7d7ff1c56c8b66ac25318db8",
+    "hwm_on_crest.png": "8038a06aaa98b318b353ee2386e7025dd833ab0e75cbce0872e9704efdd218df",
+    "hwm_counts.png": "12a2d913b40d43bd341533b08ddb0df5f54f690e24b1503c0f5d8a0f2d5a1b8b",
     "stage0_report.json": "909910ab7b4c8a657f25459f56c5d52ce9ba8367e9dce3d5c91a2441d2679900",
 }
 

@@ -24,7 +24,7 @@ NORA_CREST_WET = (
     NORA_DEFAULT / "logs" / "nora_live" / "rasters" / "wet_crest_2026-08-15.tif"
 )
 LOCKED_NORA_V1_PNG_SHA256 = (
-    "cab5c15439bb322b5116ae158f58c7777acd5634db7e351bdd47dd6f68d720ab"
+    "ca863f4cc9083528e997aec8937955c1732bc607f00659558cbe149991356fa6"
 )
 LOCKED_CREST_WET_SHA256 = (
     "f8f0a00f2470787c064c64e8d49f46cb5cbfb1a55badd21de7ea1ea1514eb09c"

@@ -48,7 +48,7 @@ def stage0_fixture(log_dir: Path) -> dict:
     pts = fixture_points_lonlat()
     table = score_points(pts, wet=blobs["wet"], transform=blobs["transform"], crs=blobs["crs"])
     require_clean(QUESTION, source="question")
-    paths = write_two(log_dir, wet=blobs["wet"], table=table)
+    paths = write_two(log_dir, wet=blobs["wet"], table=table, fixture=True)
     require_figures(n_figures=len(paths), thread_id="fix.figs")
     log_dir.mkdir(parents=True, exist_ok=True)
     report = {
@@ -93,7 +93,7 @@ def run_live(log_dir: Path) -> dict:
         fetched_ok=True,
         thread_id="live.sB",
     )
-    paths = write_two(log_dir, wet=wet, table=table)
+    paths = write_two(log_dir, wet=wet, table=table, fixture=False)
     require_figures(n_figures=len(paths), thread_id="live.figs")
     require_stage(
         current_stage="B",
